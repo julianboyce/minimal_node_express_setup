@@ -18,12 +18,6 @@ app.get("/", function(req, res) {
 console.log("Express server listening on port 3000");
 app.listen(3000)
 
-Test on localhost
-================================
-$ nodemon server.js
-http://localhost:3000/
-
-
 Create directories for static content
 ================================
 $ mkdir public
@@ -37,3 +31,8 @@ Resource: https://expressjs.com/en/starter/static-files.html
 
 Add to your server.js file
 app.use(express.static('public'))
+
+Test on localhost
+================================
+$ nodemon server.js
+http://localhost:3000/
