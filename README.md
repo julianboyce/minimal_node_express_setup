@@ -2,7 +2,9 @@ Setup environment
 ================================
 
 $ mkdir helloworld
+
 $ cd helloword/
+
 $ npm init -y
 $ npm install --save express
 $ sudo npm install --save nodemon
